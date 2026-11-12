@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "combat-sparks",
+  "version": "${version}",
+  "name": "Combat Sparks",
+  "description": "Adds crisp, dynamic spark particles when blocking with a shield, hitting armored targets, or popping a Totem of Undying.",
+  "authors": [
+    "Scobivu"
+  ],
+  "contact": {
+    "sources": "https://github.com/Scobivu"
+  },
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "scobivu.combatsparks.CombatSparksClient"
+    ]
+  },
+  "mixins": [
+    "combat-sparks.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "~1.21",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

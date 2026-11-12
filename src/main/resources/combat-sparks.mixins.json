@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "scobivu.combatsparks.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "ShieldBlockMixin",
+    "TotemPopMixin",
+    "ArmorHitMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
